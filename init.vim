@@ -51,7 +51,7 @@ set expandtab
 set smarttab
 
 "show characters we wouldn't normally expect
-set listchars=tab:——→,trail:·,extends:⇒,precedes:⇐,nbsp:·
+set listchars=tab:»\ ,trail:·,extends:⇒,precedes:⇐,nbsp:·
 set list
 
 "highlight trailing whitespace
