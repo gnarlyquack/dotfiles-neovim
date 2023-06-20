@@ -1,11 +1,13 @@
 set mouse=a
 set termguicolors
 set background = "dark"
-"colorscheme 256_noir
-"colorscheme lessthan
 "colorscheme zazen
 "colorscheme lessthan
-colorscheme farout
+"colorscheme farout
+"colorscheme candle-grey
+"colorscheme base16-grayscale-dark
+colorscheme substrata
+"colorscheme noclown
 
 " Change highlighting of cursor line when entering/leaving Insert Mode
 " highlight CursorLine cterm=NONE ctermfg=NONE ctermbg=233 guifg=NONE guibg=#121212
