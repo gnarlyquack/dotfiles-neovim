@@ -19,6 +19,7 @@ set autowriteall " save files when switching buffers
 set hidden " hide existing buffer (instead of unloading it) when opening a new file
 set nohlsearch " only highlight searches when entering the search pattern
 
+cnoremap <silent><expr> <enter> index(['/', '?'], getcmdtype()) >= 0 ? '<enter>zz' : '<enter>'
 
 "
 " line wrapping
@@ -30,12 +31,6 @@ set showbreak=↪
 " indent wrapped lines to match the current line's indenting (plus one)
 set breakindent
 set breakindentopt=shift:3
-" in normal and visual modes, remap 'j' and 'k' to move up and down visual
-" (i.e., wrapped) lines
-nnoremap j gj
-nnoremap k gk
-vnoremap j gj
-vnoremap k gk
 
 "
 "tabs
