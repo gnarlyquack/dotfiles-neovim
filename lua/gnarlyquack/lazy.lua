@@ -18,7 +18,7 @@ if not ok then
 end
 
 lazy.setup(
-    {},
+    "gnarlyquack.plugins",
     {
         ui = {
             -- replacement icons in lieu of Nerd Font
