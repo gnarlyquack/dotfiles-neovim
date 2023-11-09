@@ -1,3 +1,7 @@
+vim.g.mapleader = ' '
+
+vim.keymap.set('n', "<leader>fb", vim.cmd.Ex)
+
 -- in normal and visual modes, remap 'j' and 'k' to move up and down visual
 -- (i.e., wrapped) lines
 vim.keymap.set({"n", "v"}, "j", "gj", { noremap = true })
