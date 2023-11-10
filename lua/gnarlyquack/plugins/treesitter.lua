@@ -8,10 +8,10 @@ return {
             return
         end
 
-       install.update({ with_sync = true })()
+        install.update({ with_sync = true })()
     end,
 
-    config = function ()
+    config = function()
         local ok, configs = pcall(require, "nvim-treesitter.configs")
         if not ok then
             vim.notify("Unable to load nvim-tresitter.configs")
