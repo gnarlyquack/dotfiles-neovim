@@ -56,7 +56,3 @@ fun! TrimWhitespace()
 endfun
 
 autocmd BufWritePre * :call TrimWhitespace()
-
-augroup FormatMarkdown
-    autocmd FileType markdown setlocal formatoptions=ta
-augroup END
