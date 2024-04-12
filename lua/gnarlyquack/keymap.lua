@@ -9,5 +9,5 @@ vim.keymap.set("", "<C-u>", "<C-u>zz", { noremap = true })
 
 -- when searching next and previous, center the cursor to screen ('zz') and
 -- open folds as necessary ('zv') to make cursor visible
-vim.keymap.set({"n", "v"}, "n", "nzzzv", { noremap = true })
-vim.keymap.set({"n", "v"}, "N", "Nzzzv", { noremap = true })
+--vim.keymap.set({"n", "v"}, "n", "nzzzv", { noremap = true })
+--vim.keymap.set({"n", "v"}, "N", "Nzzzv", { noremap = true })
