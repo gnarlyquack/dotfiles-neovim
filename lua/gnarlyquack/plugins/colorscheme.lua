@@ -1,44 +1,15 @@
 return {
     {
-        "thallada/farout.nvim",
-        --"fcpg/vim-farout",
+        "rebelot/kanagawa.nvim",
         lazy = false,
         priority = 1000,
         config = function()
-            vim.cmd.colorscheme "farout"
+            vim.cmd.colorscheme "kanagawa-dragon"
         end,
     },
     {
-        "kvrohit/substrata.nvim",
+        "fcpg/vim-farout",
+        --"thallada/farout.nvim",
         event = "VeryLazy",
-        --[[
-        lazy = false,
-        priority = 1000,
-        config = function()
-            vim.cmd.colorscheme "base16-grayscale-dark"
-        end,
-        --]]
-    },
-    {
-        "tinted-theming/base16-vim",
-        event = "VeryLazy",
-        --[[
-        lazy = false,
-        priority = 1000,
-        config = function()
-            vim.cmd.colorscheme "base16-grayscale-dark"
-        end,
-        --]]
-    },
-    {
-        "cocopon/iceberg.vim",
-        event = "VeryLazy",
-        --[[
-        lazy = false,
-        priority = 1000,
-        config = function()
-            vim.cmd.colorscheme "iceberg"
-        end,
-        --]]
     },
 }
