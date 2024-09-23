@@ -68,3 +68,6 @@ vim.api.nvim_create_autocmd( -- trim extraneous whitespacs on save
         end,
     }
 )
+
+-- netrw
+ vim.g.netrw_liststyle = 3 -- use tree for directory listings
