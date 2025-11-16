@@ -17,8 +17,8 @@ vim.opt.hlsearch = false -- only highlight searches when entering the search pat
 --vim.keymap.set('n', '<CR>', '<cmd>nohlsearch<CR>') -- to clear highlights in normal mode
 
 -- line numbers
-vim.opt.number = true         -- show line numbers
-vim.opt.relativenumber = true -- show relative line numbers
+--vim.opt.number = true         -- show line numbers
+--vim.opt.relativenumber = true -- show relative line numbers
 
 -- line wrapping
 vim.opt.linebreak = true -- wrap long lines at word "edges"
@@ -33,7 +33,7 @@ vim.opt.mouse = 'a' -- enable mouse support (in 'a'll modes)
 
 -- scrolling
 vim.opt.cursorline = true -- show which line your cursor is on
-vim.opt.scrolloff = 10 -- number of lines to keep above and below cursor
+vim.opt.scrolloff = 5 -- number of lines to keep above and below cursor
 
 -- tabs
 vim.opt.tabstop = 8 -- width of literal tab characters
@@ -68,6 +68,8 @@ vim.api.nvim_create_autocmd( -- trim extraneous whitespacs on save
         end,
     }
 )
+
+vim.g.rustfmt_autosave = 1
 
 -- netrw
  vim.g.netrw_liststyle = 3 -- use tree for directory listings
