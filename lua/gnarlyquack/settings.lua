@@ -17,8 +17,8 @@ vim.opt.hlsearch = false -- only highlight searches when entering the search pat
 --vim.keymap.set('n', '<CR>', '<cmd>nohlsearch<CR>') -- to clear highlights in normal mode
 
 -- line numbers
---vim.opt.number = true         -- show line numbers
---vim.opt.relativenumber = true -- show relative line numbers
+vim.opt.number = true         -- show line numbers
+vim.opt.relativenumber = true -- show relative line numbers
 
 -- line wrapping
 vim.opt.linebreak = true -- wrap long lines at word "edges"
