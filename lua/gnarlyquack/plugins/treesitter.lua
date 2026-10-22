@@ -17,6 +17,7 @@ return {
             "gitignore",
             "lua",
             "make",
+            "markdown",
             "python",
             "rust",
             "sql",
