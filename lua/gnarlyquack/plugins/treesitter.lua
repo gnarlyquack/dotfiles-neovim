@@ -4,7 +4,7 @@ return {
     build = ":TSUpdate",
     config = function()
         local ts = require("nvim-treesitter")
-        parsers = {
+        local parsers = {
             "bash",
             "c",
             "cmake",
